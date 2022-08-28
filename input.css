@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color:"#F5F7FA" !important
+}
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+    .build_long{
+        background-image:url("https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png");
+        height:100%
+    }
+    .paytm-money{
+        min-height: 230px;
+        max-width: 155px;
+        height: 230px;
+        width: 155px;
+    }
+  }
+
+
+  @layer components{
+    
+  }
